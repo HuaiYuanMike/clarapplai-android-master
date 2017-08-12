@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview_photo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/imageview_photo_padding"
+        android:layout_marginTop="@dimen/imageview_top_margin"
+        android:layout_marginBottom="@dimen/imageview_top_margin"
+        android:minWidth="256dp"
+        android:minHeight="256dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview_photo"
+        android:id="@+id/layout_result">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/textview_result"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:textSize="@dimen/textview_text_size"
+            android:text="@string/text_result_match"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/imageview_photo_padding"
+        android:layout_below="@+id/layout_result"
+        android:id="@+id/relativeLayout">
+        <Button
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="@dimen/button_margin_horizontal"
+            android:background="@color/colorPrimary"
+            android:id="@+id/button_action"
+            android:elevation="12dp"
+            android:textColor="@android:color/white"
+            android:text="@string/btn_title_action" />
+        <Button
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/button_margin_horizontal"
+            android:background="@color/colorPrimary"
+            android:layout_toRightOf="@+id/button_action"
+            android:elevation="12dp"
+            android:id="@+id/button_cancel"
+            android:textColor="@android:color/white"
+            android:text="@string/btn_title_cancel"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_camera"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp" />
+
+</RelativeLayout>
