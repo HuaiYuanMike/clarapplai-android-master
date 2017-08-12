@@ -58,4 +58,8 @@ abstract public class FaceTaggingBaseFragment extends Fragment {
     int getResultAreaBackgroundColor(){
         return getContext().getResources().getColor(R.color.colorAccent);
     }
+
+    void cameraBtnOnClick(){
+
+    }
 }
