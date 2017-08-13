@@ -4,11 +4,15 @@
     <string name="action_settings">Settings</string>
 
     <!--Buttons-->
-    <string name="btn_title_action">Action</string>
-    <string name="btn_title_cancel">Cancel</string>
+    <string name="btn_action_add_to_train">Add</string>
+    <string name="btn_action_is_the_same">Yes</string>
+    <string name="btn_cancel">Cancel</string>
 
 
-    <!--Event notices-->
+    <!--notices-->
     <string name="text_result_match">This is You!</string>
     <string name="text_result_not_match">This is Not You!</string>
+    <string name="text_notice_area_camera_hint">Tap Camera to Add Photo!</string>
+    <string name="text_notice_area_add">Add to training data?</string>
+    <string name="text_notice_area_ready">Ready?</string>
 </resources>

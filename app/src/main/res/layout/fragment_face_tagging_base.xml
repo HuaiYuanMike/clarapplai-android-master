@@ -49,7 +49,7 @@
             android:id="@+id/button_action"
             android:elevation="12dp"
             android:textColor="@android:color/white"
-            android:text="@string/btn_title_action" />
+            android:text="@string/btn_action_is_the_same" />
         <Button
             android:layout_width="@dimen/button_width"
             android:layout_height="@dimen/button_height"
@@ -59,7 +59,7 @@
             android:elevation="12dp"
             android:id="@+id/button_cancel"
             android:textColor="@android:color/white"
-            android:text="@string/btn_title_cancel"/>
+            android:text="@string/btn_cancel"/>
     </RelativeLayout>
 
     <android.support.design.widget.FloatingActionButton

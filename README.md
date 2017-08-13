@@ -48,7 +48,7 @@ Sounds like a lot of work
 
 It is, as would be making any app from scratch! So we made this boilerplate app for you to build on,
 and took care of some of some annoying time-wasters, such as:
-
+    
 * The Clarifai API doesn't take care of cropping around faces for you! We have included [this](https://github.com/lafosca/AndroidFaceCropper)
 library for your convenience. All you have to do is `faceCropper.getCroppedImage(bitmap)` to get an 
 image that is cropped to the correct area, which you can then send to the Clarifai API.
